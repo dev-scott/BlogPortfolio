@@ -55,9 +55,9 @@ export default function Hero(): ReactElement {
                     I love building things for the web.
                   </h3> */}
                   <div className="flex justify-between flex-col max-w-xs    my-2 bg-transparent rounded-lg  mb-2  md:flex-row   ">
-                    <h2 className='bg-slate-900/100 rounded-lg p-4 mb-3 w-min' >Developer</h2>
-                    <h2 className='bg-slate-900 rounded-lg p-4 mb-3 w-min' >Designer</h2>
-                    <h2 className='bg-slate-900 rounded-lg p-4 mb-3 w-min' >Youtuber</h2>
+                    <h2 className='bg-slate-900/100 rounded-lg p-4 mb-3 w-min  text-white '  >Developer</h2>
+                    <h2 className='bg-slate-900 rounded-lg p-4 mb-3 w-min text-white' >Designer</h2>
+                    <h2 className='bg-slate-900 rounded-lg p-4 mb-3 w-min text-white' >Youtuber</h2>
                   </div>
                 </FadeLeft>
                 <FadeRight duration={0.5} delay={0.8}>

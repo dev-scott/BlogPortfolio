@@ -1,6 +1,6 @@
 const siteMetadata = {
-  title: 'Dale Larroder',
-  author: 'Dale Larroder',
+  title: 'Make with ❤️ By Dev-scott ',
+  author: 'Sado Scott',
   headerTitle: 'dalelarroder',
   description: 'Software Developer at Aphex',
   language: 'en-us',
@@ -10,13 +10,12 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'dlarroder@gmail.com',
-  github: 'https://github.com/dlarroder',
+  email: 'sadoscott25@gmail.com',
+  github: 'https://github.com/dev-scott',
   twitter: 'https://twitter.com/dalelarroder',
   facebook: 'https://facebook.com/dlarroder',
   linkedin: 'https://www.linkedin.com/in/dale-larroder/',
-  spotify: 'https://open.spotify.com/user/12162121994?si=e685b3546f414967',
-  steam: 'https://steamcommunity.com/id/dlarroder/',
+
   locale: 'en-US',
   comment: {
     provider: 'giscus',

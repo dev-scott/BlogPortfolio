@@ -18,6 +18,8 @@ module.exports = {
     'next/core-web-vitals',
   ],
   rules: {
+    'react/no-unescaped-entities': 'off',
+    '@next/next/no-page-custom-font': 'off',
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/anchor-is-valid': [
@@ -30,7 +32,6 @@ module.exports = {
     ],
     'react/prop-types': 0,
     'no-unused-vars': 0,
-    'react/no-unescaped-entities': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',

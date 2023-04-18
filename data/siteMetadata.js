@@ -1,8 +1,8 @@
 const siteMetadata = {
   title: 'Make with ❤️ By Dev-scott ',
   author: 'Sado Scott',
-  headerTitle: 'dalelarroder',
-  description: 'Software Developer at Aphex',
+  headerTitle: 'Dev.Scott',
+  description: 'Freelance Developer ',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://dalelarroder.com',
@@ -12,9 +12,9 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'sadoscott25@gmail.com',
   github: 'https://github.com/dev-scott',
-  twitter: 'https://twitter.com/dalelarroder',
-  facebook: 'https://facebook.com/dlarroder',
-  linkedin: 'https://www.linkedin.com/in/dale-larroder/',
+  twitter: 'https://twitter.com/dev__scott',
+  // facebook: 'https://facebook.com/dlarroder',
+  linkedin: 'https://www.linkedin.com/in/sado-scott-950579229/',
 
   locale: 'en-US',
   comment: {

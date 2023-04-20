@@ -1,18 +1,22 @@
-import Image from './Image'
-import Link from './Link'
+import Image from "./Image";
+import Link from "./Link";
 
 interface CardProps {
-  title: string
-  description: string
-  imgSrc: string
-  href: string
+  title: string;
+  description: string;
+  imgSrc: string;
+  href: string;
 }
 
-export default function Card({ title, description, imgSrc, href }: CardProps) {
-  return (
-    <div className="md p-2 md:w-1/2" style={{ maxWidth: '544px' }}>
-      <div className="h-full overflow-hidden rounded-md border-opacity-60 hover:bg-gray-200 hover:bg-opacity-20 dark:border-gray-700">
-        {href ? (
+const Card = ({ title, description, imgSrc, href }: CardProps) => (
+  <div className="md p-4 md:w-1/2" style={{ maxWidth: "544px" }}>
+    <div
+      className={`${
+        imgSrc && "h-full"
+      }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
+    >
+      {imgSrc &&
+        (href ? (
           <Link href={href} aria-label={`Link to ${title}`}>
             <Image
               alt={title}
@@ -30,20 +34,32 @@ export default function Card({ title, description, imgSrc, href }: CardProps) {
             width={544}
             height={306}
           />
+        ))}
+      <div className="p-6">
+        <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
+          {href ? (
+            <Link href={href} aria-label={`Link to ${title}`}>
+              {title}
+            </Link>
+          ) : (
+            title
+          )}
+        </h2>
+        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">
+          {description}
+        </p>
+        {href && (
+          <Link
+            href={href}
+            className="hover:text-primary-600 dark:hover:text-primary-400  text-gray text-base font-medium leading-6 dark:text-gray-500"
+            aria-label={`Link to ${title}`}
+          >
+            Learn more &rarr;
+          </Link>
         )}
-        <div className="p-6">
-          <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
-            {href ? (
-              <Link href={href} aria-label={`Link to ${title}`}>
-                {title}
-              </Link>
-            ) : (
-              title
-            )}
-          </h2>
-          <p className="prose max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-        </div>
       </div>
     </div>
-  )
-}
+  </div>
+);
+
+export default Card;

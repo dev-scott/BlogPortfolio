@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Freelance Developer ',
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://dalelarroder.com',
+  siteUrl: 'https://dev-scott.site',
   siteRepo: 'https://github.com/dlarroder/dalelarroder-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',

@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    title: 'WeeChat',
+    description: `Messaging app .`,
+    imgSrc: '/static/images/project/weechat.jpg',
+    tag: ['React', 'css'],
+    href: 'https://weechat.vercel.app/',
+  },
+  {
     title: 'Flash digital',
     description: `The startup offers web and mobile application development services .`,
     imgSrc: '/static/images/project/flash-digital.png',

@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: 'https://dev-scott.org',
   siteRepo: 'https://github.com/dev-scott/BlogPortfolio',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.webp',
+  image: '/static/images/me.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'sadoscott25@gmail.com',
   github: 'https://github.com/dev-scott',

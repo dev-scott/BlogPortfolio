@@ -7,6 +7,20 @@ const projectsData = [
     href: 'https://weechat.vercel.app/',
   },
   {
+    title: 'DevStyle',
+    description: `Platform for the sale of goodies and technological products`,
+    imgSrc: '/static/images/project/devstyle.png',
+    tag: ['React', 'Tailwind'],
+    href: 'https://dev-style.com/',
+  },
+  {
+    title: 'DevLabX',
+    description: `Elearing platform`,
+    imgSrc: '/static/images/project/devlab.png',
+    tag: ['Next Js', 'Node js'],
+    href: 'https://devlabx-six.vercel.app/',
+  },
+  {
     title: 'Flash digital',
     description: `The startup offers web and mobile application development services .`,
     imgSrc: '/static/images/project/flash-digital.png',

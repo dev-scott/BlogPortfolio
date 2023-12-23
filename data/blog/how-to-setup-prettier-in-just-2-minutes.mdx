@@ -1,0 +1,91 @@
+---
+title: 'Hos to setup prettier in just 2min'
+date: '2023-12-23'
+tags: ['JavaScript', 'Prettier']
+draft: false
+author: 'Sado Scott'
+summary: 'Here is how to setup a complete prettier configuratio'
+---
+
+## Overview
+
+<TOCInline toc={props.toc} exclude="Overview" toHeading={2} />
+
+## What is prettier ?
+
+Hello everyone, today we're going to see how to configure and use Prettier in all our projects. First, you should know that I use it everywhere; it has become indispensable, especially when I'm working in a team because it allows me to have the same formatting configurations among my team members.
+
+> But wait, what is Prettier?
+
+Prettier is simply a tool written in JavaScript that allows any developer to automatically reformat their code to comply with formatting conventions such as indentation, spacing between characters, etc.
+
+For example, let's take this unformatted code:
+
+![The cat trap in action](sahand-babali-unsplash.jpg)
+
+With Prettier and specific configurations, we would have this result:
+
+```js
+const array1 = [1, 2, 3, 4]
+// Sums all values in array
+const initialValue = 0
+const sumWithInitial = array1.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+)
+```
+
+## The advantages and disadvantages of prettiers
+
+Prettier is a fantastic tool with numerous advantages, but it also has a few small inconveniences that we will explore in this section.
+
+Regarding the advantages of Prettier:
+
+1. It works with most JavaScript languages and frameworks; they are automatically detected based on their extensions (e.g., .vue, .scss, etc.).
+
+2. It integrates with all IDEs through extensions or plugins.
+
+3. It can be customized, but it also works seamlessly with default options.
+
+4. It aligns well with the Unix philosophy of "Do One Thing and Do It Well": Prettier only handles formatting, but it does it exceptionally well.
+
+> > > **A significant drawback for me is that its setup can easily become a bit of a challenge.**
+
+## Installing and configuring prettier
+
+Now that we understand the usefulness of Prettier, as well as its advantages and drawbacks, let's get to the heart of the matter.
+
+To install Prettier in your project, you will first open your terminal and navigate to the location of your project. Then, depending on whether you use Yarn or npm, you will execute these commands:
+
+```js
+# with npm
+npm i -D prettier
+
+# with Yarn
+yarn add -D prettier
+```
+
+Now, we will configure Prettier.
+
+The configuration involves setting each option with the values of our choice.
+
+- NB: It is worth noting that this configuration is entirely optional because Prettier is already pre-configured with default values that may suit your needs.
+
+First, create a .prettierrc.js file at the root of your project.
+
+Then, add your options following the format below:
+
+```javascript
+module.exports = {
+  tabWidth: 4,
+  singleQuote: true,
+}
+```
+
+You can find the list of all possible configurations [here](https://prettier.io/docs/en/options.html).
+
+Congratulations, you've successfully configured Prettier! 😁
+
+Now, to run Prettier, use the following command in your terminal:
+
+`npx prettier --write .`

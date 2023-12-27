@@ -8,7 +8,12 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/static/favicons/favicon.ico" />
 
           <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/favicon.ico" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32" />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/favicons/favicon-32x32.png"
+          />
           <link
             rel="icon"
             type="image/png"

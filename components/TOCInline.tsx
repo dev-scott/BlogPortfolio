@@ -11,7 +11,7 @@ interface TOCInlineProps {
 
 /**
  * Generates an inline table of contents
- * Exclude titles matching this string (new RegExp('^(' + string + ')$', 'i')).
+ * Exclude titles e matching this string (new RegExp('^(' + string + ')$', 'i')).
  * If an array is passed the array gets joined with a pipe (new RegExp('^(' + array.join('|') + ')$', 'i')).
  *
  * @param {TOCInlineProps} {

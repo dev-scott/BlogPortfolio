@@ -42,13 +42,13 @@ const projectsData = [
     href: 'https://devlabx-six.vercel.app/',
   },
 
-  // {
-  //   title: 'Ecommerce web site',
-  //   description: 'The e-commerce site sells furniture products.',
-  //   imgSrc: '/static/images/project/ecommerce.png',
-  //   tag: ['javascript', 'css'],
-  //   href: 'https://react-course-comfy-sloth-store.netlify.app/',
-  // },
+  {
+    title: 'Career237',
+    description: 'A platform where users can search and apply for jobs, and employers can post job opportunities.',
+    imgSrc: '/static/images/project/career237.png',
+    tag: ['javascript', 'css', 'nextjs', 'shadcn', 'neon'],
+    href: 'https://career237.vercel.app/',
+},
   {
     title: 'BipSearch',
     description: 'Web site for searching and downloading images .',

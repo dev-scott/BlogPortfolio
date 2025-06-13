@@ -44,11 +44,12 @@ const projectsData = [
 
   {
     title: 'Career237',
-    description: 'A platform where users can search and apply for jobs, and employers can post job opportunities.',
+    description:
+      'A platform where users can search and apply for jobs, and employers can post job opportunities.',
     imgSrc: '/static/images/project/career237.png',
     tag: ['javascript', 'css', 'nextjs', 'shadcn', 'neon'],
     href: 'https://career237.vercel.app/',
-},
+  },
   {
     title: 'BipSearch',
     description: 'Web site for searching and downloading images .',
@@ -62,6 +63,13 @@ const projectsData = [
     imgSrc: '/static/images/project/dev.to.png',
     tag: ['javascript', 'css'],
     href: 'https://dev-to-clone-eta.vercel.app/',
+  },
+  {
+    title: 'FrameitUP',
+    description: 'Web platform for the sale of custom frames',
+    imgSrc: '/static/images/project/frameitup.png',
+    tag: ['NextJs', 'Tailwind'],
+    href: 'http://frameitup.store/',
   },
 ]
 

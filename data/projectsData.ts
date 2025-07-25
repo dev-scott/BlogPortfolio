@@ -71,6 +71,13 @@ const projectsData = [
     tag: ['NextJs', 'Tailwind'],
     href: 'http://frameitup.store/',
   },
+  {
+    title: 'Tallix',
+    description: 'Tallix helps you create and send beautiful invoices in minutes',
+    imgSrc: '/static/images/project/tallix.png',
+    tag: ['Java spring boot', 'ReactJs'],
+    href: '',
+  },
 ]
 
 export default projectsData

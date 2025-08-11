@@ -75,8 +75,8 @@ const projectsData = [
     title: 'Tallix',
     description: 'Tallix helps you create and send beautiful invoices in minutes',
     imgSrc: '/static/images/project/tallix.png',
-    tag: ['Java spring boot', 'ReactJs'],
-    href: '',
+    tag: ['Java spring boot', 'ReactJs', 'docker'],
+    href: 'https://tallix-frontend.vercel.app/',
   },
 ]
 

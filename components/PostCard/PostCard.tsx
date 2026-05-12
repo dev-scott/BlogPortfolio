@@ -1,12 +1,12 @@
-import Tag from "@/components/Tag";
-import { CoreContent } from "@/lib/utils/contentlayer";
-import type { Blog } from "contentlayer/generated";
-import { motion } from "framer-motion";
-import Link from "next/link";
+import Tag from '@/components/Tag'
+import { CoreContent } from '@/lib/utils/contentlayer'
+import type { Blog } from 'contentlayer/generated'
+import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export interface PostCardProps {
-  posts: CoreContent<Blog>[];
-  showTags?: boolean;
+  posts: CoreContent<Blog>[]
+  showTags?: boolean
 }
 
 export default function PostCard({ posts, showTags = true }: PostCardProps) {
@@ -25,7 +25,7 @@ export default function PostCard({ posts, showTags = true }: PostCardProps) {
               <div className="space-y-3 xl:col-span-4">
                 <span className="text-2xl font-bold leading-8 tracking-tight">
                   <Link href={`/blog/${slug}`}>
-                    <span className="text-primary-500 dark:group-hover:text-primary-500 duration-300 hover:text-gray-100 group-hover:text-gray-100  dark:text-gray-100">
+                    <span className="text-primary-500 duration-300 group-hover:text-gray-100 hover:text-gray-100 dark:text-gray-100  dark:group-hover:text-primary-500">
                       {title}
                     </span>
                   </Link>
@@ -37,7 +37,7 @@ export default function PostCard({ posts, showTags = true }: PostCardProps) {
                     ))}
                   </div>
                 )}
-                <div className="prose dark:group-hover:text-primary-500 max-w-none text-gray-900 group-hover:text-gray-100 dark:text-gray-100">
+                <div className="prose max-w-none text-gray-900 group-hover:text-gray-100 dark:text-gray-100 dark:group-hover:text-primary-500">
                   {summary}
                 </div>
               </div>
@@ -46,5 +46,5 @@ export default function PostCard({ posts, showTags = true }: PostCardProps) {
         </motion.li>
       ))}
     </ul>
-  );
+  )
 }

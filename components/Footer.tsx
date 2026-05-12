@@ -1,7 +1,7 @@
-import siteMetadata from "@/data/siteMetadata";
-import Link from "next/link";
-import { AiFillLinkedin } from "react-icons/ai";
-import { FaGithub, FaSpotify, FaSteam, FaTwitter } from "react-icons/fa";
+import siteMetadata from '@/data/siteMetadata'
+import Link from 'next/link'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { FaGithub, FaSpotify, FaSteam, FaTwitter } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -12,9 +12,7 @@ export default function Footer() {
             <li>{`© ${new Date().getFullYear()}`}</li>
             <li>{` • `}</li>
             <li>
-              <a href="https://twitter.com/dev__scott">
-                {siteMetadata.title}
-              </a>
+              <a href="https://twitter.com/dev__scott">{siteMetadata.title}</a>
             </li>
           </ul>
           <ul className="flex cursor-pointer items-center space-x-5">
@@ -29,30 +27,18 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href={siteMetadata.github}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="github"
-              >
+              <a href={siteMetadata.github} target="_blank" rel="noreferrer" aria-label="github">
                 <FaGithub className="sm:text-lg" />
               </a>
             </li>
             <li>
-              <a
-                href={siteMetadata.twitter}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="twitter"
-              >
+              <a href={siteMetadata.twitter} target="_blank" rel="noreferrer" aria-label="twitter">
                 <FaTwitter className="sm:text-lg" />
               </a>
             </li>
-     
-     
           </ul>
         </div>
       </div>
     </footer>
-  );
+  )
 }

@@ -36,6 +36,3 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
     </>
   )
 }
-
-
-

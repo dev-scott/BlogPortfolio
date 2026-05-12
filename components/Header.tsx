@@ -15,18 +15,15 @@ export default function Header() {
         <div>
           <Link href="/" className="flex items-center justify-between" aria-label="Home">
             <div
-              className={classNames(
-                'horizontal-underline text-3xl font-extrabold sm:block',
-                {
-                  'horizontal-underline-active': router.pathname === '/',
-                }
-              )}
+              className={classNames('horizontal-underline text-3xl font-extrabold sm:block', {
+                'horizontal-underline-active': router.pathname === '/',
+              })}
             >
               Dev.Scott
             </div>
           </Link>
         </div>
-        
+
         <div className="flex items-center space-x-3 text-base leading-5">
           <div className="hidden space-x-5 sm:flex">
             {headerNavLinks.map(({ title, href }) => {

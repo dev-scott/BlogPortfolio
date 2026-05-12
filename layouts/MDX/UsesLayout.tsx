@@ -29,7 +29,7 @@ export default function UsesLayout({ children, content }: Props) {
             </a>
           </span> */}
         </div>
-        <div className="flex justify-center   prose max-w-none pb-8 text-center text-sm dark:prose-dark md:text-lg xl:col-span-2">
+        <div className="prose flex   max-w-none justify-center pb-8 text-center text-sm dark:prose-dark md:text-lg xl:col-span-2">
           {children}
         </div>
       </div>

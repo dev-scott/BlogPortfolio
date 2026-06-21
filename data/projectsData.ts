@@ -5,14 +5,14 @@ const projectsData = [
     description: `Landing page width framer motion`,
     imgSrc: '/static/images/project/fizzi.png',
     tag: ['NextJs', 'TailwindCss', 'FramerMotion'],
-    href: 'https://fizzi-anime.vercel.app/',
+    href: 'fizzii.dev-scott.me',
   },
   {
     title: 'WeeChat',
     description: `Messaging app .`,
-    imgSrc: '/static/images/project/weechat.jpg',
+    imgSrc: '/static/images/project/weechat.png',
     tag: ['React', 'css'],
-    href: 'https://weechat.vercel.app/',
+    href: 'https://weechat.dev-scott.me/',
   },
   // {
   //   title: 'Hi consulting immigration',

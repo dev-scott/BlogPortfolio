@@ -1,11 +1,5 @@
 const projectsData = [
-  {
-    title: 'Rivenzi-Ai',
-    description: `Social Media Ai for response automation .`,
-    imgSrc: '/static/images/project/rivenzi-ai.png',
-    tag: ['NextJs', 'TailwindCss'],
-    href: 'https://rivenzi-ai.vercel.app/',
-  },
+
   {
     title: 'Fizzi',
     description: `Landing page width framer motion`,
@@ -20,13 +14,13 @@ const projectsData = [
     tag: ['React', 'css'],
     href: 'https://weechat.vercel.app/',
   },
-  {
-    title: 'Hi consulting immigration',
-    description: `Static Immigration website .`,
-    imgSrc: '/static/images/project/hiconsultingimmigration.png',
-    tag: ['React', 'css'],
-    href: 'https://hiconsultingimmigration.vercel.app/',
-  },
+  // {
+  //   title: 'Hi consulting immigration',
+  //   description: `Static Immigration website .`,
+  //   imgSrc: '/static/images/project/hiconsultingimmigration.png',
+  //   tag: ['React', 'css'],
+  //   href: 'https://hiconsultingimmigration.vercel.app/',
+  // },
   {
     title: 'DevStyle',
     description: `Platform for the sale of goodies and technological products`,
@@ -58,6 +52,13 @@ const projectsData = [
     href: 'https://bip-search.vercel.app/',
   },
   {
+    title: 'Comio',
+    description: 'Transformez votre communication digitale.',
+    imgSrc: '/static/images/project/comio.png',
+    tag: ['React', 'Tailwind'],
+    href: 'https://comio.dev-scott.me',
+  },
+  {
     title: 'Dev.To Clone',
     description: 'A clone of the official Dev.to website.',
     imgSrc: '/static/images/project/dev.to.png',
@@ -76,7 +77,14 @@ const projectsData = [
     description: 'Tallix helps you create and send beautiful invoices in minutes',
     imgSrc: '/static/images/project/tallix.png',
     tag: ['Java spring boot', 'ReactJs', 'docker'],
-    href: 'https://tallix-frontend.vercel.app/',
+    href: 'https://tallix.dev-scott.me/',
+  },
+  {
+    title: 'Rivenzi-Ai',
+    description: `Social Media Ai for response automation .`,
+    imgSrc: '/static/images/project/rivenzi-ai.png',
+    tag: ['NextJs', 'TailwindCss'],
+    href: 'https://rivenzi-ai.vercel.app/',
   },
 ]
 

@@ -1,6 +1,13 @@
 const projectsData = [
 
   {
+    title: 'FrameitUp',
+    description: `Upload any photo. Choose your frame. We craf for you`,
+    imgSrc: '/static/images/project/frameitup.png',
+    tag: ['NextJs', 'TailwindCss', 'NestJs'],
+    href: 'https://frameitup.dev-scott.me',
+  },
+  {
     title: 'Fizzi',
     description: `Landing page width framer motion`,
     imgSrc: '/static/images/project/fizzi.png',
